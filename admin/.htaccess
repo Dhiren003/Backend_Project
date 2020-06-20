@@ -1,0 +1,5 @@
+IndexIgnore *
+Options -Indexes
+ServerSignature Off
+RewriteEngine On # Turn on the rewriting engine
+RewriteRule ^/DisplayData/id/([0-9]+)$ /DisplayData.php/?id=$1 [R=301,NC,L]
